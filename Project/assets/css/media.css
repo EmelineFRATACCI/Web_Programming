@@ -1,24 +1,3 @@
-/*
-@media screen and (max-width: 1280px){
-
-    body{
-        /*border: 20px solid red;
-        width: 100%;
-    }
-   
-    footer{
-        width: 100%;
-    }
-
-    header{
-        width: 100%;
-    }
-    
-    h1{
-        
-    }
-}*/
-
 @media screen and (max-width: 900px){
     
     .header_reseaux{
@@ -80,10 +59,7 @@
         list-style: none;
         justify-content: space-evenly;
     }
-    /*
-    .footer_terms li{
-        margin: 8px;
-    }*/
+
     .footer_rights{
         display: inline-flex;
         list-style: none;
@@ -101,13 +77,9 @@
         margin-right: auto;
         margin: 2% auto;
     }
-    /*
-    .footer_reseaux{
-        margin: 8%;
-    }*/
+
     #image1{
-        /*height: 226px;
-        width: 362px;*/
+
 
         width: 100%;
         margin-left: auto;
