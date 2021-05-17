@@ -1,0 +1,119 @@
+/*
+@media screen and (max-width: 1280px){
+
+    body{
+        /*border: 20px solid red;
+        width: 100%;
+    }
+   
+    footer{
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+    }
+    
+    h1{
+        
+    }
+}*/
+
+@media screen and (max-width: 900px){
+    
+    .header_reseaux{
+        display: none;
+    }
+    .header_number{
+        font-size: 1.3em;
+        display: flex;
+        align-items: center;
+    }
+    
+    #number{
+
+    }
+    #latest-projects{
+        flex-direction: column;
+    }
+    #latest-projects img{
+        width: 100%;
+        padding: 15px;
+    }
+    #image3{
+        width: 100%;
+    }
+    #latestnews-images{
+        flex-direction: column;
+    }
+    #latestnews-images .col-3{
+        width: 100%;
+    }
+    
+    #latestnews-images img{
+        margin: 15px 0px ;
+    }
+    #clients-feedback{
+        flex-direction: column;
+    }
+    #clients-feedback img{
+        margin: 15px auto;
+    }
+    #clients-feedback .col-6{
+        width: 100%;
+    }
+    .clients{
+        margin: 4% 8%;
+    }
+    #footer-logo-text .col-4, .col-8{
+        width: 100%;
+    }
+    #footer-col .col-6, .col-4, .col-2, .col-3{
+        width: 100%;
+        display: inline-grid;
+    }
+    #footer-col{
+        display: block;
+    }
+    .footer_terms{
+        display: inline-flex;
+        list-style: none;
+        justify-content: space-evenly;
+    }
+    /*
+    .footer_terms li{
+        margin: 8px;
+    }*/
+    .footer_rights{
+        display: inline-flex;
+        list-style: none;
+        margin: 15px 0px;
+        justify-content: space-evenly;
+    }
+    
+    .footer_details{
+        display: inline-flex;
+        list-style: none;
+        justify-content: space-evenly;
+    }
+    .footer_language{
+        margin-left: auto;
+        margin-right: auto;
+        margin: 2% auto;
+    }
+    /*
+    .footer_reseaux{
+        margin: 8%;
+    }*/
+    #image1{
+        /*height: 226px;
+        width: 362px;*/
+
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #architectural{
+        flex-direction: column;
+    }
+}

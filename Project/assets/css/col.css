@@ -1,0 +1,43 @@
+
+.col-1{
+    width: 8.33%;
+    /*border: 1px solid orange;*/
+    
+}
+
+.col-2{
+    width: 16.66%;
+    /*border: 1px solid rgb(211, 5, 183) ;*/
+    display: flex;
+   
+}
+
+.col-3{
+    width: 25% ;
+    /*border: 1px solid purple;*/
+    display: flex;
+}
+
+.col-4{
+    
+    /*border: 1px solid red;*/
+    width: 33.33%;
+    height: auto;
+    display: flex;
+    
+}
+
+.col-6{
+    width: 50%;
+    /*border: 1px solid green;*/
+    display: flex;
+}
+
+.col-12{
+    width: 100%;
+    /*border: 1px solid blue;*/
+}
+
+#col-12-clients{
+    background-color: #6b6b6b12;
+}

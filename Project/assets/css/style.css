@@ -1,0 +1,362 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body{
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+}
+
+/* -------------------------------------------------------------------------- */
+
+header{
+    
+    display: flex;
+    padding: 20px 0px;
+    align-items: center;
+    width: 100%;
+}
+
+/* -------------------------------------------------------------------------- */
+
+
+.header_logo {
+    display: flex;
+}
+
+#header-logo-text{
+    width: 150px;
+}
+
+.header_number{
+    display: flex;
+    align-items: center;
+}
+
+.header_reseaux {
+    
+    display: flex;
+    overflow: hidden; /* Removes bullets */
+    align-items: center;
+}
+
+.header_reseaux li {
+    
+    display: table-cell;
+    margin: 3px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 18px;
+    color: grey;
+    
+}
+
+.header_number-title{
+    color: grey;
+    font-size: 1.3em;
+    padding: 0px 7px;
+}
+
+.header_number-no{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.header_menu-display{
+    overflow: hidden;
+    flex-direction: column;
+    list-style: none;
+}
+
+#menu{
+    margin-top: 8px;
+}
+/* -------------------------------------------------------------------------- */
+
+.slider{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: auto;
+}
+
+.slider img{
+    display: block;
+    margin-left: auto;  /*Setting both to auto to center img*/
+    margin-right: auto;
+}
+
+.slider-arrow{
+    position: absolute;
+    font-size: 100px;
+    opacity: 0.3;
+}
+
+.slider-arrow:hover{
+    opacity: 1;     
+    cursor: pointer;
+}
+
+#slider-leftarrow{
+    left: 0;
+}
+
+#slider-rightarrow{
+    right: 0;
+}
+
+#slider-padding{
+    padding: 20px 0px;
+}
+
+.slider img{
+    width: 100%;
+    max-height: 100vh;
+}
+/* -------------------------------------------------------------------------- */
+
+.header_menu{
+    cursor: pointer;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.padding80{
+    padding: 80px;
+}
+
+p{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+h3{
+    font-size: 0.8em;
+    color: grey;
+}
+
+#architectural-image{
+    align-items: center;
+}
+
+
+.architectural-text{
+    padding: 50px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+#latest-projects{
+    padding: 50px 0px;
+}
+
+#latest-projects .col-3{
+    padding: 10px;
+}
+
+.latestprojects-title{
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-title{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.project-title li{
+    margin-left: 20px;
+}
+
+.project-images{
+    display: flex;
+    list-style-type: none;
+}
+
+.project-images li{
+    margin-left: auto;
+    padding: 15px;
+}
+
+#project-allgreen{
+    color: green;
+}
+
+/* -------------------------------------------------------------------------- */
+
+
+.clients{
+    margin: 8.33% 16.66%;
+    /*border: 1px solid red;*/
+}
+
+
+.clients-logo{
+    display: flex;
+    overflow: hidden;
+    margin: 0 30px;
+    align-items: center;
+}
+
+.clients-logo li{
+    list-style: none;
+}
+
+#clients-feedback img{
+    padding: 25px;
+}
+#clients-feedback1{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#clients-feedback2{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.latestnews{
+    margin: 8% 16%;
+    /*border: 1px solid red;*/
+}
+.latestnews-title{
+    display: flex;
+    
+}
+
+.latestnews-greytext{
+    color: grey;
+    float: right;
+    font-size: 18px;
+}
+
+#latestnews-images img{
+    margin-top: 50px;
+}
+
+h4{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#news1{
+    
+}
+
+#news2, #news3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* -------------------------------------------------------------------------- */
+
+footer{
+    
+    width: 100%;
+    /*background-color: #AB6CBD;*/
+    padding: 50px 0px;
+    
+}
+
+#footer-logo-text{
+    width: 200px;
+}
+
+#footer-logo{
+    height: 47.6px;
+    width: 47.33px
+}
+.footer_reseaux {
+    
+    display: flex;
+    overflow: hidden; /* Removes bullets */
+    align-items: center;
+}
+
+.footer_reseaux li {
+    
+    display: table-cell;
+    margin-left: 10px;
+}
+
+.footer_rights{
+    
+    overflow: hidden;
+
+}
+
+.footer_terms{
+    
+    overflow: hidden;
+
+}
+
+.footer_details{
+    
+    overflow: hidden;
+}
+
+
+
+img{
+    max-width: 100%;
+    max-height: 500px;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+}
+
+*,::after,::before{
+    box-sizing: border-box;
+
+}
+
+
+.space-between{
+    justify-content: space-between;
+}
+
+.center{
+    justify-content: center;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.align-items-center{
+    align-items: center;
+}
